@@ -1,6 +1,4 @@
-/* =============================
-   Base Reset and Layout
-============================= */
+
 * {
   margin: 0;
   padding: 0;
@@ -20,9 +18,6 @@ body.dark {
   color: #eee;
 }
 
-/* =============================
-   Header & Navigation
-============================= */
 header {
   background: #333;
   color: #fff;
@@ -64,9 +59,7 @@ nav h1 {
   color: #ffcc00;
 }
 
-/* =============================
-   Hero Section (Home Page)
-============================= */
+
 .hero {
   text-align: center;
   padding: 4rem 1rem;
@@ -161,9 +154,7 @@ body.dark .product p {
   background: #0056b3;
 }
 
-/* =============================
-   Cart Page
-============================= */
+
 #cartItems {
   list-style: none;
   padding: 2rem;
@@ -180,9 +171,7 @@ body.dark #cartItems li {
   border-color: #444;
 }
 
-/* =============================
-   Contact Page Form
-============================= */
+
 form {
   max-width: 500px;
   margin: 2rem auto;
@@ -229,9 +218,7 @@ form button:hover {
   background: #0056b3;
 }
 
-/* =============================
-   Footer
-============================= */
+
 footer {
   text-align: center;
   padding: 1.5rem;
@@ -244,9 +231,7 @@ body.dark footer {
   color: #aaa;
 }
 
-/* =============================
-   Responsive Design
-============================= */
+
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;
