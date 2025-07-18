@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Shop - My Shop</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
 </head>
 <body>
   <header>
@@ -15,26 +17,31 @@
         <li><a href="shop.html">Shop</a></li>
         <li><a href="cart.html">Cart</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><button id="themeToggle">🌓</button></li>
+        <button id="themeToggle">
+          <i id="themeIcon" class="fas fa-moon"></i>
+        </button>
       </ul>
     </nav>
   </header>
 
   <main>
-    <h2>Shop Products</h2>
+    <h2 class="shop-head">Shop Products</h2>
     <div class="products">
       <div class="product">
-        <h3>Product 1</h3>
+        <img src="/images/mac-air.png" alt="">
+        <h3>Macbook Air</h3>
         <p>$10.00</p>
         <button class="add-to-cart" data-product="Product 1">Add to Cart</button>
       </div>
       <div class="product">
-        <h3>Product 2</h3>
+        <img src="/images/Glock_19_9mm.png" alt="">
+        <h3>Glock19 9mm</h3>
         <p>$15.00</p>
         <button class="add-to-cart" data-product="Product 2">Add to Cart</button>
       </div>
       <div class="product">
-        <h3>Product 3</h3>
+        <img src="/images/jbl_headphone.png" alt="">
+        <h3>JBL headphones</h3>
         <p>$20.00</p>
         <button class="add-to-cart" data-product="Product 3">Add to Cart</button>
       </div>

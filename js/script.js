@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const cartButtons = document.querySelectorAll(".add-to-cart");
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-  // Add to Cart
   cartButtons.forEach(button => {
     button.addEventListener("click", () => {
       const product = button.dataset.product;
@@ -56,5 +55,20 @@ document.addEventListener("DOMContentLoaded", () => {
       alert("Message sent! (Not really, just a demo 😉)");
       contactForm.reset();
     });
+  }
+});
+
+const toggleBtn = document.getElementById('themeToggle');
+const icon = document.getElementById('themeIcon');
+
+toggleBtn.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+
+  if (document.body.classList.contains('dark-mode')) {
+    icon.classList.remove('fa-moon');
+    icon.classList.add('fa-sun');
+  } else {
+    icon.classList.remove('fa-sun');
+    icon.classList.add('fa-moon');
   }
 });

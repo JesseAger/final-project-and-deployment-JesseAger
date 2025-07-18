@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cart - My Shop</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
 </head>
 <body>
   <header>
@@ -15,13 +17,15 @@
         <li><a href="shop.html">Shop</a></li>
         <li><a href="cart.html">Cart</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><button id="themeToggle">🌓</button></li>
+        <button id="themeToggle">
+          <i id="themeIcon" class="fas fa-moon"></i>
+        </button>
       </ul>
     </nav>
   </header>
 
   <main>
-    <h2>Your Cart</h2>
+    <h2 class="cart-head">Your Cart</h2>
     <ul id="cartItems"></ul>
   </main>
 
